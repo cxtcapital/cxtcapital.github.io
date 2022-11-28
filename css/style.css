@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #010918;
+  height: 93vh;
+}
+.hero-headline {
+    background: radial-gradient(#deb024, #00040c);
+    background-size: 100% 200%;
+    background-position: 50% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 3.9rem
+}
+
+#h3 {
+  color: blue;
+}
