@@ -585,6 +585,97 @@ pre code {
   }
 }
 
+.notice-short {
+  display: none;
+  visibility: hidden;
+}
+
+.notice-normal {
+  display: block;
+  visibility: visible;
+}
+
+@media (max-width: 1200px) {
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-5 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 992px) {
+  .display-3 {
+    font-size: 3.3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-5 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-3 {
+    font-size: 2.9rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-5 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .notice-short {
+    display: block;
+    visibility: visible;
+  }
+  
+  .notice-normal {
+    display: none !important;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  .display-3 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-5 {
+    font-size: 1.17rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .notice-short {
+    display: block;
+    visibility: visible;
+  }
+  
+  .notice-normal {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
