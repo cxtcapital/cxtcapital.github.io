@@ -1,68 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="imgs/png/cxt-icon.png">
 
-    <title>Cxt Capital Advisors</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cxt Capital Advisors</title>
+  <link rel="shortcut icon" href="./imgs/cxt-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./css/cxtcapital-style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./scss/style.css" />
+  <script src="./vendor/js/bootstrap.bundle.min.js" defer></script>
+  <script src="./vendor/js/header-height-adj.js" defer></script>
+</head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+<body>
 
-    <!-- Custom styles for this template -->
-    <link href="./css/cxtcapital-style.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">CXT CAPITAL ADVISORS</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expertise</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Strategic Advisory</a>
-              <a class="dropdown-item" href="#">Quantitative Methods</a>
-              <a class="dropdown-item" href="#">Technologies</a>
+  <div class="navigation">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html" target="_self">
+          <img src="./imgs/cxt-logo.png" alt="logo" class="logo">
+          <h3 class="site-title cxt-title-s">Cxt Capital Advisors</h3>
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Our Business</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Strategic Advisory</a>
+                <a class="dropdown-item" href="#">Quantitative Methods</a>
+                <a class="dropdown-item" href="#">Technologies</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <!-- <div class="nav-item button">
+              <button>
+                Call to Action <i class="fa-solid fa-arrow-right"></i>
+              </button> -->
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
 
-    <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron text-center"> 
-        <!--<div class="jumbotron_banner">-->
-          <div class="container">
-            <h2 class="display-3"><p class="cxt-gold-title">CXT CAPITAL ADVISORS</p></h2>
-            <h5 class="display-5"><p class="cxt-gold-slogan">Your Goals. Our Solutions.</p></h5>
-            <!-- <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p> -->
-            </br>
-            <p><a class="btn btn-info btn-lg" href="#footer" role="button">&nbsp;<img class="fill-svg" src="imgs/svg/cxt-chevron-double-down.svg"/>&nbsp;</a></p>
-            <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+  <div class="header section bottom">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imgs/cxtcap_unsplash_feed/main-04.jpg" class="d-block w-100 carousel-image" alt="...">
+          <div class="carousel-caption">
+            <!--<h2>Your Goals. Our Solutions</h2>
+            <p>We understand your business goals. We bring you our strategic capabilities.</p>-->
           </div>
-        <!--</div>-->
-      </div> 
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/cxtcap_unsplash_feed/main-05.jpg" class="d-block w-100 carousel-image" alt="...">
+          <div class="carousel-caption">
+            <!--<h2>Your Goals. Our Solutions</h2>
+            <p>We assess your measurements needs. We bring you our quatitative expertise.</p>-->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./imgs/cxtcap_unsplash_feed/main-06.jpg" class="d-block w-100 carousel-image" alt="...">
+          <div class="carousel-caption">
+            <!--<h2>Your Goals. Our Solutions</h2>
+            <p>We comprehend your disruptive barriers. We bring you our technology solutions.</p>-->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 
+
+  <div class="icons-cards-wrapper section">
       <div class="container">
         <!-- Example row of columns -->
         <div class="row">
@@ -80,57 +118,105 @@
         <div class="row">
           <div class="col-md-4">
             <h2 class="cxt-gold-section"><p class="notice-short">Strategic Advisory</p></h2>
-            <p style="text-align: justify; word-spacing:-2px;">We are bringing to our clients a traditional approach to solve current business issues.</br>
+            <p style="text-align: justify; word-spacing:-2px; padding: 4px;">We are bringing to our clients a traditional approach to solve current business issues.</br>
                We understand - in an ever-changing world - the values of constancy
                and discipline in delivering for brands that were already there and 
                will remains and adapt to an evolving environment.</p>
-               <p class="notice-short"><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+               <p class="notice-short"><a class="btn btn-warning cxt-btn-dgreen" href="./services/strategic-advisory.html" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
             <h2 class="cxt-gold-section"><p class="notice-short">Quantitative Methods</p></h2>
-            <p style="text-align: justify; word-spacing:-2px;">We are engineers and we deliver solutions that support our clients' objectives by being measurable and reproducible.</br>
+            <p style="text-align: justify; word-spacing:-2px; padding: 4px;">We are engineers and we deliver solutions that support our clients' objectives by being measurable and reproducible.</br>
                We want our solutions to be quantifiable, reliable, and durable.</br>
                Our cutting-edge quantitative solutions fit that purpose to achieve 
                our clients' ambitions.</p>
-               <p class="notice-short"><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+               <p class="notice-short"><a class="btn btn-warning cxt-btn-dgreen" href="./services/quantitative-methods.html" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
             <h2 class="cxt-gold-section"><p class="notice-short">Technologies</p></h2>
-            <p style="text-align: justify; word-spacing:-2px;">Our solutions comprehend the complexity of the digital and
+            <p style="text-align: justify; word-spacing:-2px; padding: 4px;">Our solutions comprehend the complexity of the digital and
                information technology challenges our clients' organizations face.</br>
                Collaboration, decision-support tools, automation systems, and algorithms are some of the keys we deploy.</br> 
                Our goal is to help our clients in their journey to achieve exceptionally.</p>
-               <p class="notice-short"><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+               <p class="notice-short"><a class="btn btn-warning cxt-btn-dgreen" href="./services/technology.html" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <p class="notice-normal"><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+            <p class="notice-normal"><a class="btn btn-warning cxt-btn-dgreen" href="./services/strategic-advisory.html" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
-            <p class="notice-normal"><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+            <p class="notice-normal"><a class="btn btn-warning cxt-btn-dgreen" href="./services/quantitative-methods.html" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-md-4">
-            <p class="notice-normal"><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+            <p class="notice-normal"><a class="btn btn-warning cxt-btn-dgreen" href="./services/technology.html" role="button">View details &raquo;</a></p>
           </div>
         </div>
 
-        <hr>
+    </div>
+  </div>
 
-      </div> <!-- /container -->
+  <div class="why-choose-us section">
+    <div class="container">
+      <div class="row gap-3 gap-lg-0">
+        <div class="col-lg-6 img-wrapper">
+          <img src="./imgs/cxtcap_unsplash_feed/choose-05.jpg" alt="" class="illustration">
+        </div>
+        <div class="col-lg-6 justify-content-center d-flex flex-column">
+          <h2 class="mt-4">Why choose us</h2>
+          <ul class="d-flex justify-content-center flex-column gap-4 mt-lg-4">
+            <li><img src="./imgs/icons/right-arrow.png" alt="">We deliver governance and strategy related engagements ;</li>
+            <li><img src="./imgs/icons/right-arrow.png" alt="">We deliver methodologies and/or documentation review components ;</li>
+            <li><img src="./imgs/icons/right-arrow.png" alt="">We deliver simulations and impact assessments toward TOMs ;</li>
+            <li><img src="./imgs/icons/right-arrow.png" alt="">We deliver tactical solutions deepening and increasing the scope of the analysis process ;</li>
+            <li><img src="./imgs/icons/right-arrow.png" alt="">We support the IT functions in the production chain and/or in reporting BAUs and changes implementation.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </main>
 
-    <footer class="container text-center">
-      <p>&copy; 2023 Cxt Capital Advisors Ltd. - All rights Reserved.</p>
-    </footer>
+  <footer class="section top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <a class="navbar-brand mb-5" href="#"><img src="./imgs/cxt-logo.png" alt="" class="logo">
+            <h3 class="site-title">Cxt Capital Advisors</h3>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <h4>Quick Link</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4>Our Business</h4>
+          <ul>
+            <li><a href="#">Strategic Advisory</a></li>
+            <li><a href="#">Quantitative Methods</a></li>
+            <li><a href="#">Technologies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex mt-5 justify-content-between flex-column flex-md-row">
+        <div class="copyright text-center">
+          <p>©2023 CXT CAPITAL TECHNOLOGIES - All rights reserved</p>
+        </div>
+        <div class="social-icons d-flex justify-content-center">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="vendor/js/jquery-slim.min.js"><\/script>')</script>
-    <script src="./vendor/js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-  </body>
+
+</body>
+
 </html>
