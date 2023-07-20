@@ -73,6 +73,33 @@ p {
 	color: #00447c;
 }
 
+.cxt-marine-section {
+    color: #e9cb9d !important;
+}
+
+.cxt-bmar-section {
+    background-color: #0B1C3A !important;
+}
+
+.cxt-one-section {
+    color: #ffe309 !important;
+}
+
+.cxt-z-section {
+    color: #edcb13 !important;
+}
+
+
+.cxt-blk {
+    color: black !important;
+}
+
+
+.cxt-footer-main {
+	background: url("./../imgs/cxtcap_unsplash_feed/footer-03.jpg");
+    background-size: cover; 
+}
+
 
 
 .notice-short {
