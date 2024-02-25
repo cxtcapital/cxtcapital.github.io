@@ -1,0 +1,1 @@
+var navBar=$(".navigation"),header=$(".header"),headerImage=document.querySelectorAll(".carousel-image");function $(e){return document.querySelector(e)}window.onload=function(){var e=window.getComputedStyle(navBar,null),a=parseInt(e.getPropertyValue("height")),r=window.innerHeight-a+16;header.style.height=r+"px",headerImage.forEach((e=>{e.style.height=r+"px"}))};
